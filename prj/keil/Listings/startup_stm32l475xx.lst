@@ -729,8 +729,8 @@ erwork --depend=.\obj\startup_stm32l475xx.d -o.\obj\startup_stm32l475xx.o -I.\R
 TE\_nudity_system -ID:\software\MDK\exe\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drive
 rs\CMSIS\Device\ST\STM32L4xx\Include -ID:\software\MDK\exe\ARM\CMSIS\Include --
 predefine="__UVISION_VERSION SETA 525" --predefine="STM32L475xx SETA 1" --list=
-.\listings\startup_stm32l475xx.lst ..\..\kernel\core\stm32l4xx\stm32l475xx\star
-tup_stm32l475xx.s
+.\listings\startup_stm32l475xx.lst ..\..\os\kernel\core\stm32l4xx\stm32l475xx\s
+tartup_stm32l475xx.s
 
 
 
@@ -741,8 +741,8 @@ STACK 00000000
 
 Symbol: STACK
    Definitions
-      At line 48 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 48 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
    Uses
       None
 Comment: STACK unused
@@ -750,23 +750,23 @@ Stack_Mem 00000000
 
 Symbol: Stack_Mem
    Definitions
-      At line 49 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 49 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
    Uses
-      At line 424 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 426 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 424 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 426 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 __initial_sp 00000400
 
 Symbol: __initial_sp
    Definitions
-      At line 50 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 50 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
    Uses
-      At line 74 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 74 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
 Comment: __initial_sp used once
 3 symbols
 
@@ -779,8 +779,8 @@ HEAP 00000000
 
 Symbol: HEAP
    Definitions
-      At line 59 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 59 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
    Uses
       None
 Comment: HEAP unused
@@ -788,20 +788,20 @@ Heap_Mem 00000000
 
 Symbol: Heap_Mem
    Definitions
-      At line 61 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 61 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
    Uses
-      At line 423 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 425 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 423 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 425 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 __heap_base 00000000
 
 Symbol: __heap_base
    Definitions
-      At line 60 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 60 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
    Uses
       None
 Comment: __heap_base unused
@@ -809,8 +809,8 @@ __heap_limit 00000200
 
 Symbol: __heap_limit
    Definitions
-      At line 62 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 62 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
    Uses
       None
 Comment: __heap_limit unused
@@ -825,8 +825,8 @@ RESET 00000000
 
 Symbol: RESET
    Definitions
-      At line 69 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 69 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
    Uses
       None
 Comment: RESET unused
@@ -834,25 +834,25 @@ __Vectors 00000000
 
 Symbol: __Vectors
    Definitions
-      At line 74 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 74 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
    Uses
-      At line 70 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 177 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 70 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 177 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 __Vectors_End 00000188
 
 Symbol: __Vectors_End
    Definitions
-      At line 175 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 175 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 71 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 177 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 71 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 177 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 3 symbols
 
@@ -865,8 +865,8 @@ Relocatable symbols
 
 Symbol: .text
    Definitions
-      At line 179 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 179 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
       None
 Comment: .text unused
@@ -874,49 +874,49 @@ ADC1_2_IRQHandler 0000001A
 
 Symbol: ADC1_2_IRQHandler
    Definitions
-      At line 338 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 338 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 110 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 257 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 110 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 257 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 ADC3_IRQHandler 0000001A
 
 Symbol: ADC3_IRQHandler
    Definitions
-      At line 367 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 367 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 139 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 286 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 139 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 286 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 BusFault_Handler 0000000E
 
 Symbol: BusFault_Handler
    Definitions
-      At line 210 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 210 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 79 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 211 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 79 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 211 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 CAN1_RX0_IRQHandler 0000001A
 
 Symbol: CAN1_RX0_IRQHandler
    Definitions
-      At line 340 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 340 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 112 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 259 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 112 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 259 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 CAN1_RX1_IRQHandler 0000001A
 
@@ -928,61 +928,61 @@ Relocatable symbols
 
 Symbol: CAN1_RX1_IRQHandler
    Definitions
-      At line 341 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 341 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 113 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 260 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 113 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 260 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 CAN1_SCE_IRQHandler 0000001A
 
 Symbol: CAN1_SCE_IRQHandler
    Definitions
-      At line 342 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 342 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 114 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 261 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 114 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 261 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 CAN1_TX_IRQHandler 0000001A
 
 Symbol: CAN1_TX_IRQHandler
    Definitions
-      At line 339 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 339 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 111 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 258 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 111 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 258 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 COMP_IRQHandler 0000001A
 
 Symbol: COMP_IRQHandler
    Definitions
-      At line 384 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 384 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 156 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 303 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 156 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 303 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DFSDM1_FLT0_IRQHandler 0000001A
 
 Symbol: DFSDM1_FLT0_IRQHandler
    Definitions
-      At line 381 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 381 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 153 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 300 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 153 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 300 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DFSDM1_FLT1_IRQHandler 0000001A
 
@@ -994,61 +994,61 @@ Relocatable symbols
 
 Symbol: DFSDM1_FLT1_IRQHandler
    Definitions
-      At line 382 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 382 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 154 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 301 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 154 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 301 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DFSDM1_FLT2_IRQHandler 0000001A
 
 Symbol: DFSDM1_FLT2_IRQHandler
    Definitions
-      At line 383 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 383 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 155 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 302 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 155 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 302 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DFSDM1_FLT3_IRQHandler 0000001A
 
 Symbol: DFSDM1_FLT3_IRQHandler
    Definitions
-      At line 362 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 362 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 134 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 281 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 134 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 281 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DMA1_Channel1_IRQHandler 0000001A
 
 Symbol: DMA1_Channel1_IRQHandler
    Definitions
-      At line 331 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 331 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 103 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 250 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 103 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 250 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DMA1_Channel2_IRQHandler 0000001A
 
 Symbol: DMA1_Channel2_IRQHandler
    Definitions
-      At line 332 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 332 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 104 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 251 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 104 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 251 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 
 
@@ -1060,61 +1060,61 @@ DMA1_Channel3_IRQHandler 0000001A
 
 Symbol: DMA1_Channel3_IRQHandler
    Definitions
-      At line 333 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 333 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 105 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 252 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 105 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 252 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DMA1_Channel4_IRQHandler 0000001A
 
 Symbol: DMA1_Channel4_IRQHandler
    Definitions
-      At line 334 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 334 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 106 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 253 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 106 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 253 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DMA1_Channel5_IRQHandler 0000001A
 
 Symbol: DMA1_Channel5_IRQHandler
    Definitions
-      At line 335 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 335 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 107 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 254 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 107 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 254 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DMA1_Channel6_IRQHandler 0000001A
 
 Symbol: DMA1_Channel6_IRQHandler
    Definitions
-      At line 336 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 336 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 108 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 255 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 108 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 255 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DMA1_Channel7_IRQHandler 0000001A
 
 Symbol: DMA1_Channel7_IRQHandler
    Definitions
-      At line 337 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 337 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 109 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 256 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 109 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 256 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 
 
@@ -1126,110 +1126,110 @@ DMA2_Channel1_IRQHandler 0000001A
 
 Symbol: DMA2_Channel1_IRQHandler
    Definitions
-      At line 376 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 376 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 148 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 295 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 148 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 295 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DMA2_Channel2_IRQHandler 0000001A
 
 Symbol: DMA2_Channel2_IRQHandler
    Definitions
-      At line 377 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 377 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 149 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 296 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 149 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 296 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DMA2_Channel3_IRQHandler 0000001A
 
 Symbol: DMA2_Channel3_IRQHandler
    Definitions
-      At line 378 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 378 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 150 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 297 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 150 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 297 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DMA2_Channel4_IRQHandler 0000001A
 
 Symbol: DMA2_Channel4_IRQHandler
    Definitions
-      At line 379 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 379 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 151 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 298 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 151 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 298 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DMA2_Channel5_IRQHandler 0000001A
 
 Symbol: DMA2_Channel5_IRQHandler
    Definitions
-      At line 380 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 380 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 152 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 299 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
+      At line 152 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 299 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
 
 
 
 ARM Macro Assembler    Page 6 Alphabetic symbol ordering
 Relocatable symbols
 
-l475xx.s
+m32l475xx.s
 
 DMA2_Channel6_IRQHandler 0000001A
 
 Symbol: DMA2_Channel6_IRQHandler
    Definitions
-      At line 388 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 388 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 160 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 307 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 160 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 307 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DMA2_Channel7_IRQHandler 0000001A
 
 Symbol: DMA2_Channel7_IRQHandler
    Definitions
-      At line 389 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 389 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 161 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 308 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 161 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 308 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 DebugMon_Handler 00000014
 
 Symbol: DebugMon_Handler
    Definitions
-      At line 224 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 224 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 86 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 225 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 86 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 225 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 Default_Handler 0000001A
 
 Symbol: Default_Handler
    Definitions
-      At line 237 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 237 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
       None
 Comment: Default_Handler unused
@@ -1237,13 +1237,13 @@ EXTI0_IRQHandler 0000001A
 
 Symbol: EXTI0_IRQHandler
    Definitions
-      At line 326 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 326 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 98 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 245 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 98 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 245 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 
 
@@ -1255,61 +1255,61 @@ EXTI15_10_IRQHandler 0000001A
 
 Symbol: EXTI15_10_IRQHandler
    Definitions
-      At line 360 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 360 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 132 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 279 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 132 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 279 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 EXTI1_IRQHandler 0000001A
 
 Symbol: EXTI1_IRQHandler
    Definitions
-      At line 327 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 327 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 99 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 246 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 99 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 246 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 EXTI2_IRQHandler 0000001A
 
 Symbol: EXTI2_IRQHandler
    Definitions
-      At line 328 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 328 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 100 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 247 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 100 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 247 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 EXTI3_IRQHandler 0000001A
 
 Symbol: EXTI3_IRQHandler
    Definitions
-      At line 329 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 329 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 101 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 248 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 101 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 248 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 EXTI4_IRQHandler 0000001A
 
 Symbol: EXTI4_IRQHandler
    Definitions
-      At line 330 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 330 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 102 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 249 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 102 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 249 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 
 
@@ -1321,254 +1321,254 @@ EXTI9_5_IRQHandler 0000001A
 
 Symbol: EXTI9_5_IRQHandler
    Definitions
-      At line 343 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 343 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 115 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 262 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 115 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 262 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 FLASH_IRQHandler 0000001A
 
 Symbol: FLASH_IRQHandler
    Definitions
-      At line 324 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 324 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 96 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 243 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 96 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 243 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 FMC_IRQHandler 0000001A
 
 Symbol: FMC_IRQHandler
    Definitions
-      At line 368 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 368 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 140 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 287 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 140 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 287 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 FPU_IRQHandler 0000001A
 
 Symbol: FPU_IRQHandler
    Definitions
-      At line 399 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 399 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 173 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 318 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 173 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 318 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 HardFault_Handler 0000000A
 
 Symbol: HardFault_Handler
    Definitions
-      At line 200 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 200 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 77 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 201 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
+      At line 77 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 201 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
 
 
 
 ARM Macro Assembler    Page 9 Alphabetic symbol ordering
 Relocatable symbols
 
-l475xx.s
+m32l475xx.s
 
 I2C1_ER_IRQHandler 0000001A
 
 Symbol: I2C1_ER_IRQHandler
    Definitions
-      At line 352 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 352 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 124 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 271 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 124 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 271 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 I2C1_EV_IRQHandler 0000001A
 
 Symbol: I2C1_EV_IRQHandler
    Definitions
-      At line 351 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 351 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 123 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 270 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 123 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 270 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 I2C2_ER_IRQHandler 0000001A
 
 Symbol: I2C2_ER_IRQHandler
    Definitions
-      At line 354 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 354 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 126 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 273 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 126 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 273 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 I2C2_EV_IRQHandler 0000001A
 
 Symbol: I2C2_EV_IRQHandler
    Definitions
-      At line 353 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 353 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 125 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 272 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 125 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 272 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 I2C3_ER_IRQHandler 0000001A
 
 Symbol: I2C3_ER_IRQHandler
    Definitions
-      At line 393 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 393 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 165 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 165 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 
 
 ARM Macro Assembler    Page 10 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 312 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 312 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 I2C3_EV_IRQHandler 0000001A
 
 Symbol: I2C3_EV_IRQHandler
    Definitions
-      At line 392 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 392 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 164 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 311 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 164 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 311 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 LPTIM1_IRQHandler 0000001A
 
 Symbol: LPTIM1_IRQHandler
    Definitions
-      At line 385 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 385 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 157 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 304 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 157 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 304 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 LPTIM2_IRQHandler 0000001A
 
 Symbol: LPTIM2_IRQHandler
    Definitions
-      At line 386 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 386 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 158 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 305 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 158 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 305 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 LPUART1_IRQHandler 0000001A
 
 Symbol: LPUART1_IRQHandler
    Definitions
-      At line 390 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 390 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 162 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 309 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 162 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 309 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 MemManage_Handler 0000000C
 
 Symbol: MemManage_Handler
    Definitions
-      At line 205 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 205 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 78 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
+      At line 78 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
 
 
 
 ARM Macro Assembler    Page 11 Alphabetic symbol ordering
 Relocatable symbols
 
-475xx.s
-      At line 206 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+32l475xx.s
+      At line 206 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 NMI_Handler 00000008
 
 Symbol: NMI_Handler
    Definitions
-      At line 195 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 195 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 76 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 196 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 76 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 196 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 OTG_FS_IRQHandler 0000001A
 
 Symbol: OTG_FS_IRQHandler
    Definitions
-      At line 387 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 387 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 159 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 306 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 159 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 306 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 PVD_PVM_IRQHandler 0000001A
 
 Symbol: PVD_PVM_IRQHandler
    Definitions
-      At line 321 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 321 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 93 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 240 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 93 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 240 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 PendSV_Handler 00000016
 
 Symbol: PendSV_Handler
    Definitions
-      At line 228 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 228 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 88 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 229 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 88 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 229 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 QUADSPI_IRQHandler 0000001A
 
 Symbol: QUADSPI_IRQHandler
    Definitions
-      At line 391 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 391 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
 
 
@@ -1576,65 +1576,65 @@ l475xx.s
 ARM Macro Assembler    Page 12 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 163 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 310 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 163 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 310 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 RCC_IRQHandler 0000001A
 
 Symbol: RCC_IRQHandler
    Definitions
-      At line 325 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 325 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 97 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 244 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 97 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 244 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 RNG_IRQHandler 0000001A
 
 Symbol: RNG_IRQHandler
    Definitions
-      At line 398 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 398 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 172 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 317 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 172 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 317 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 RTC_Alarm_IRQHandler 0000001A
 
 Symbol: RTC_Alarm_IRQHandler
    Definitions
-      At line 361 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 361 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 133 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 280 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 133 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 280 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 RTC_WKUP_IRQHandler 0000001A
 
 Symbol: RTC_WKUP_IRQHandler
    Definitions
-      At line 323 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 323 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 95 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 242 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 95 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 242 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 Reset_Handler 00000000
 
 Symbol: Reset_Handler
    Definitions
-      At line 182 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 182 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 
 
@@ -1642,124 +1642,124 @@ ARM Macro Assembler    Page 13 Alphabetic symbol ordering
 Relocatable symbols
 
    Uses
-      At line 75 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 183 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 75 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 183 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 SAI1_IRQHandler 0000001A
 
 Symbol: SAI1_IRQHandler
    Definitions
-      At line 394 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 394 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 166 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 313 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 166 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 313 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 SAI2_IRQHandler 0000001A
 
 Symbol: SAI2_IRQHandler
    Definitions
-      At line 395 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 395 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 167 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 314 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 167 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 314 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 SDMMC1_IRQHandler 0000001A
 
 Symbol: SDMMC1_IRQHandler
    Definitions
-      At line 369 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 369 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 141 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 288 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 141 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 288 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 SPI1_IRQHandler 0000001A
 
 Symbol: SPI1_IRQHandler
    Definitions
-      At line 355 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 355 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 127 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 274 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 127 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 274 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 SPI2_IRQHandler 0000001A
 
 Symbol: SPI2_IRQHandler
    Definitions
-      At line 356 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
+      At line 356 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
 
 
 
 ARM Macro Assembler    Page 14 Alphabetic symbol ordering
 Relocatable symbols
 
-l475xx.s
+m32l475xx.s
    Uses
-      At line 128 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 275 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 128 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 275 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 SPI3_IRQHandler 0000001A
 
 Symbol: SPI3_IRQHandler
    Definitions
-      At line 371 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 371 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 143 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 290 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 143 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 290 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 SVC_Handler 00000012
 
 Symbol: SVC_Handler
    Definitions
-      At line 219 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 219 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 85 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 220 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 85 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 220 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 SWPMI1_IRQHandler 0000001A
 
 Symbol: SWPMI1_IRQHandler
    Definitions
-      At line 396 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 396 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 168 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 315 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 168 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 315 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 SysTick_Handler 00000018
 
 Symbol: SysTick_Handler
    Definitions
-      At line 232 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 232 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 89 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 233 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 89 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 233 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TAMP_STAMP_IRQHandler 0000001A
 
@@ -1771,61 +1771,61 @@ Symbol: TAMP_STAMP_IRQHandler
 ARM Macro Assembler    Page 15 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 322 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 322 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 94 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 241 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 94 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 241 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM1_BRK_TIM15_IRQHandler 0000001A
 
 Symbol: TIM1_BRK_TIM15_IRQHandler
    Definitions
-      At line 344 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 344 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 116 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 263 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 116 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 263 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM1_CC_IRQHandler 0000001A
 
 Symbol: TIM1_CC_IRQHandler
    Definitions
-      At line 347 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 347 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 119 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 266 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 119 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 266 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM1_TRG_COM_TIM17_IRQHandler 0000001A
 
 Symbol: TIM1_TRG_COM_TIM17_IRQHandler
    Definitions
-      At line 346 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 346 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 118 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 265 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 118 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 265 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM1_UP_TIM16_IRQHandler 0000001A
 
 Symbol: TIM1_UP_TIM16_IRQHandler
    Definitions
-      At line 345 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 345 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 117 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 264 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 117 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 264 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM2_IRQHandler 0000001A
 
@@ -1837,61 +1837,61 @@ ARM Macro Assembler    Page 16 Alphabetic symbol ordering
 Relocatable symbols
 
    Definitions
-      At line 348 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 348 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 120 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 267 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 120 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 267 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM3_IRQHandler 0000001A
 
 Symbol: TIM3_IRQHandler
    Definitions
-      At line 349 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 349 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 121 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 268 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 121 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 268 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM4_IRQHandler 0000001A
 
 Symbol: TIM4_IRQHandler
    Definitions
-      At line 350 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 350 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 122 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 269 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 122 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 269 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM5_IRQHandler 0000001A
 
 Symbol: TIM5_IRQHandler
    Definitions
-      At line 370 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 370 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 142 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 289 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 142 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 289 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM6_DAC_IRQHandler 0000001A
 
 Symbol: TIM6_DAC_IRQHandler
    Definitions
-      At line 374 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 374 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 146 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 293 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 146 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 293 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM7_IRQHandler 0000001A
 
@@ -1903,61 +1903,61 @@ Relocatable symbols
 
 Symbol: TIM7_IRQHandler
    Definitions
-      At line 375 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 375 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 147 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 294 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 147 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 294 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM8_BRK_IRQHandler 0000001A
 
 Symbol: TIM8_BRK_IRQHandler
    Definitions
-      At line 363 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 363 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 135 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 282 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 135 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 282 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM8_CC_IRQHandler 0000001A
 
 Symbol: TIM8_CC_IRQHandler
    Definitions
-      At line 366 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 366 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 138 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 285 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 138 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 285 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM8_TRG_COM_IRQHandler 0000001A
 
 Symbol: TIM8_TRG_COM_IRQHandler
    Definitions
-      At line 365 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 365 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 137 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 284 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 137 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 284 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TIM8_UP_IRQHandler 0000001A
 
 Symbol: TIM8_UP_IRQHandler
    Definitions
-      At line 364 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 364 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 136 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 283 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 136 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 283 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 TSC_IRQHandler 0000001A
 
@@ -1969,61 +1969,61 @@ Relocatable symbols
 
 Symbol: TSC_IRQHandler
    Definitions
-      At line 397 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 397 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 169 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 316 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 169 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 316 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 UART4_IRQHandler 0000001A
 
 Symbol: UART4_IRQHandler
    Definitions
-      At line 372 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 372 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 144 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 291 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 144 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 291 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 UART5_IRQHandler 0000001A
 
 Symbol: UART5_IRQHandler
    Definitions
-      At line 373 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 373 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 145 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 292 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 145 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 292 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 USART1_IRQHandler 0000001A
 
 Symbol: USART1_IRQHandler
    Definitions
-      At line 357 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 357 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 129 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 276 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 129 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 276 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 USART2_IRQHandler 0000001A
 
 Symbol: USART2_IRQHandler
    Definitions
-      At line 358 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 358 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 130 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 277 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 130 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 277 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 
 
@@ -2035,47 +2035,47 @@ USART3_IRQHandler 0000001A
 
 Symbol: USART3_IRQHandler
    Definitions
-      At line 359 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 359 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 131 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
-      At line 278 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 131 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
+      At line 278 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 UsageFault_Handler 00000010
 
 Symbol: UsageFault_Handler
    Definitions
-      At line 215 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 215 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 80 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 216 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 80 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 216 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 WWDG_IRQHandler 0000001A
 
 Symbol: WWDG_IRQHandler
    Definitions
-      At line 320 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 320 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 92 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 239 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 92 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 239 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 __user_initial_stackheap 0000001C
 
 Symbol: __user_initial_stackheap
    Definitions
-      At line 421 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 421 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 419 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 419 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 Comment: __user_initial_stackheap used once
 93 symbols
 
@@ -2088,35 +2088,35 @@ Heap_Size 00000200
 
 Symbol: Heap_Size
    Definitions
-      At line 57 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 57 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
    Uses
-      At line 61 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 425 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 61 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 425 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 Stack_Size 00000400
 
 Symbol: Stack_Size
    Definitions
-      At line 46 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 46 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
    Uses
-      At line 49 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
-      At line 424 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 49 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
+      At line 424 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 
 __Vectors_Size 00000188
 
 Symbol: __Vectors_Size
    Definitions
-      At line 177 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 177 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 72 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32l
-475xx.s
+      At line 72 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_stm
+32l475xx.s
 Comment: __Vectors_Size used once
 3 symbols
 
@@ -2129,28 +2129,28 @@ SystemInit 00000000
 
 Symbol: SystemInit
    Definitions
-      At line 184 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 184 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 187 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 187 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 Comment: SystemInit used once
 __main 00000000
 
 Symbol: __main
    Definitions
-      At line 185 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 185 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
-      At line 189 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 189 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
 Comment: __main used once
 __use_two_region_memory 00000000
 
 Symbol: __use_two_region_memory
    Definitions
-      At line 418 in file ..\..\kernel\core\stm32l4xx\stm32l475xx\startup_stm32
-l475xx.s
+      At line 418 in file ..\..\os\kernel\core\stm32l4xx\stm32l475xx\startup_st
+m32l475xx.s
    Uses
       None
 Comment: __use_two_region_memory unused

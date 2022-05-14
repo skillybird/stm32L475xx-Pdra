@@ -34,7 +34,8 @@
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include "main.h"
+#include "kmain.h"
+#include "delay.h"
 
 /** @addtogroup STM32L4xx_HAL_Examples
   * @{

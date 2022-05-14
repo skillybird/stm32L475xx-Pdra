@@ -34,8 +34,8 @@
   */
   
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __MAIN_H
-#define __MAIN_H
+#ifndef __KMAIN_H
+#define __KMAIN_H
 
 /* Includes ------------------------------------------------------------------*/
 //#include "stm32l4xx_hal.h"
@@ -46,6 +46,6 @@
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions ------------------------------------------------------- */
 
-#endif /* __MAIN_H */
+#endif /* __KMAIN_H */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
